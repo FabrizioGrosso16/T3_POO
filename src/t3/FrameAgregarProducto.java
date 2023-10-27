@@ -91,7 +91,8 @@ public class FrameAgregarProducto extends javax.swing.JFrame {
     }//GEN-LAST:event_bttRetrocederActionPerformed
 
     private void bttAgregarProductoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttAgregarProductoActionPerformed
-
+          this.dispose();
+       padre.setVisible(true);  
     }//GEN-LAST:event_bttAgregarProductoActionPerformed
 
     /**
